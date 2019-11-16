@@ -1,0 +1,12 @@
+node {
+    
+   checkout scm    
+    
+   stage('Install') {
+        sh 'echo test'
+    }    
+    
+    stage('Deploy') {
+        sh 'echo test1'
+        }
+    }
